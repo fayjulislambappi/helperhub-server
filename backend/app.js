@@ -68,7 +68,7 @@ app.use(cookieParser());
 app.use(cors());
 
 app.use(cors({
-    origin: [ process.env.LOCAL_SITE_URL]
+    origin: [ process.env.LOCAL_SITE_URL, process.env.REACT_APP_API_URL]
   }));
   
 
